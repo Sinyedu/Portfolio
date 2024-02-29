@@ -9,6 +9,9 @@
     height: 500px;
     width: 500px;
 }
+
+
+
 .imgcontainer {
 display: flex;
 justify-content: center;
@@ -17,12 +20,13 @@ height: 60vh;
 }
 
 
-
-
 .simon {
 display: flex;
+position: sticky;
 justify-content: center;
 align-items: center;
 height: 500px;
 width: 500px;
+z-index: -1;
+overflow: hidden;
 }
