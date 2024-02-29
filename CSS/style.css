@@ -3,7 +3,19 @@
     margin: 0;
 
 }
-
+@keyframes fadeInFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fade-in-from-top {
+    animation: fadeInFromTop 1.5s ease-in-out forwards;
+}
 
 .heroimg {
     height: 500px;
