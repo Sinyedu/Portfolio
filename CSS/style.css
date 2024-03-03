@@ -1,7 +1,6 @@
-*{
+* {
     padding: 0;
     margin: 0;
-
 }
 
 body {
@@ -17,42 +16,34 @@ body {
     align-content: center;
     min-height: 100vh;
 }
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: opacity 1s, filter 1s;
+}
 
-.headerpad
-{
+.visible {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.headerpad {
     padding: 25px;
-}
-
-
-@keyframes fadeInFromTop {
-    0% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.fade-in-from-top {
-    animation: fadeInFromTop 1.5s ease-in-out forwards;
 }
 
 img {
     max-width: 100%;
     height: auto;
-  }
+}
 
-
-  .billeder {
+.billeder {
     padding-left: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-  }
-
+}
 
 .social-links {
     display: flex;
@@ -66,8 +57,7 @@ img {
     .h-screen {
       height: 65vh;
     }
-  }
-
+}
 
 .h-screen {
     height: 90vh !important;
