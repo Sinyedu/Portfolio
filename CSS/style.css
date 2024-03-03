@@ -55,10 +55,10 @@ img {
 
 @media (max-width: 640px) {
     .h-screen {
-      height: 65vh;
+      height: 70vh !important;
     }
 }
 
 .h-screen {
-    height: 90vh !important;
+    height: 85vh !important;
 }
