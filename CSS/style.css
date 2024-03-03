@@ -31,14 +31,7 @@ body {
     animation: fadeInFromTop 1.5s ease-in-out forwards;
 }
 
-
-
-.imgcontainer {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 60vh;
-position: relative;
-}
-
-
+img {
+    max-width: 100%;
+    height: auto;
+  }
