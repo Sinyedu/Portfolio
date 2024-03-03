@@ -3,6 +3,20 @@
     margin: 0;
 
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0e2f46;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.headerpad
+{
+    padding: 25px;
+}
+
+
 @keyframes fadeInFromTop {
     0% {
         opacity: 0;
@@ -17,11 +31,6 @@
     animation: fadeInFromTop 1.5s ease-in-out forwards;
 }
 
-.heroimg {
-    height: 500px;
-    width: 500px;
-}
-
 
 
 .imgcontainer {
@@ -29,17 +38,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 60vh;
+position: relative;
 }
 
-
-.simon {
-display: flex;
-position: sticky;
-justify-content: center;
-align-items: center;
-height: 500px;
-width: 500px;
-z-index: -1;
-overflow: hidden;
-}
 
