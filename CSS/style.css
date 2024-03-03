@@ -41,17 +41,19 @@
 }
 
 .light-mode {
+    transition: ease-in-out 0.5s;
     background-color: white;
     color: black;
 }
   
   .dark-mode {
+    transition: ease-in-out 0.5s;
     background-color: rgb(31, 41, 55);
     color: white;
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(141, 141, 141);
     line-height: 1.6;
     font-size: 18px;
 }
