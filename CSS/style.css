@@ -35,3 +35,13 @@ img {
     max-width: 100%;
     height: auto;
   }
+
+
+  .billeder {
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
