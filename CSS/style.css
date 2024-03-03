@@ -45,3 +45,18 @@ img {
     align-items: center;
     margin: 0 auto;
   }
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media (max-width: 640px) {
+    .h-screen {
+      height: 65vh;
+    }
+  }
