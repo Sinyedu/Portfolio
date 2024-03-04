@@ -46,7 +46,7 @@
     color: black;
 }
   
-  .dark-mode {
+.dark-mode {
     transition: ease-in-out 0.5s;
     background-color: rgb(31, 41, 55);
     color: white;
@@ -66,8 +66,10 @@ body {
 }
 
 
-.headerpad {
+.Education {
     padding: 25px;
+    align-items: center;
+    text-align: center;
 }
 
 img {
@@ -103,10 +105,29 @@ img {
      }
  }
  
- .fade-in {
+.fade-in {
     animation: fade 2s ease-in-out forwards;
      opacity: 0;
      transform: translateX(55px);
  }
 
 
+.sociallinks {
+    display: flex;
+    gap: 7vh;
+    justify-content: center;
+ }
+
+
+.Education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.education2 {
+    border: .5px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
