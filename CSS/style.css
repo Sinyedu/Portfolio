@@ -114,7 +114,7 @@ img {
 
 .sociallinks {
     display: flex;
-    gap: 7vh;
+    gap: 5vh;
     justify-content: center;
 }
 
@@ -129,7 +129,8 @@ img {
     border: .5px solid #ccc;
     padding: 20px;
     margin: 20px auto;
-    max-width: 600px;
+    max-width: 1200px;
+    
 }
 
 .font-normal {
@@ -146,11 +147,14 @@ img {
     border: .5px solid #ccc;
     padding: 20px;
     margin: 20px auto;
-    max-width: 600px;
+    max-width: 1200px;
+    text-align: center;
 }
 
 .headerskills {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
+
 }
