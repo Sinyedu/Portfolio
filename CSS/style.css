@@ -89,11 +89,14 @@ img {
 .font-normal {
     margin-bottom: 10px;
 }
+.skills {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
 
 .skills2 {
     border: .5px solid #ccc;
-    padding: 20px;
-    margin: 20px auto;
     max-width: 1200px;
     text-align: center;
 }
