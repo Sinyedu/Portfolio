@@ -17,3 +17,28 @@
 //     popup.classList.add('show');
 //   });
 // For future use!
+$(document).ready(function(){
+    $(window).scroll(function() {
+      $('.skills2').each(function() {
+        var elementTop = $(this).offset().top;
+        var viewportTop = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (elementTop < viewportTop + windowHeight - 50) {
+          $(this).addClass('fadeIn');
+        }
+      });
+    });
+  });
+
+  $(document).ready(function(){
+    $(window).scroll(function() {
+      $('.education2').each(function() {
+        var elementTop = $(this).offset().top;
+        var viewportTop = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (elementTop < viewportTop + windowHeight - 50) {
+          $(this).addClass('fadeIn');
+        }
+      });
+    });
+  });

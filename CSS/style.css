@@ -79,7 +79,6 @@ img {
 }
 
 .education2 {
-    border: .5px solid #ccc;
     padding: 20px;
     margin: 20px auto;
     max-width: 1200px;
@@ -96,7 +95,6 @@ img {
 }
 
 .skills2 {
-    border: .5px solid #ccc;
     max-width: 1200px;
     text-align: center;
 }
@@ -109,3 +107,15 @@ img {
 
 }
 
+.skills2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.fadeIn {
+    opacity: 1 !important;
+}
+
+.education2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
